@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ExportInjector", "ExportInjector.vcproj", "{796329BB-C3E2-4207-A735-6A29F5F0694B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ExportInjectorRun", "ExportInjectorRun.vcproj", "{32A774F3-BE29-4E28-8D79-D9540A9801B6}"
+	ProjectSection(ProjectDependencies) = postProject
+		{796329BB-C3E2-4207-A735-6A29F5F0694B} = {796329BB-C3E2-4207-A735-6A29F5F0694B}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{796329BB-C3E2-4207-A735-6A29F5F0694B}.Debug|Win32.ActiveCfg = Debug|Win32
+		{796329BB-C3E2-4207-A735-6A29F5F0694B}.Debug|Win32.Build.0 = Debug|Win32
+		{796329BB-C3E2-4207-A735-6A29F5F0694B}.Release|Win32.ActiveCfg = Release|Win32
+		{796329BB-C3E2-4207-A735-6A29F5F0694B}.Release|Win32.Build.0 = Release|Win32
+		{32A774F3-BE29-4E28-8D79-D9540A9801B6}.Debug|Win32.ActiveCfg = Debug|Win32
+		{32A774F3-BE29-4E28-8D79-D9540A9801B6}.Debug|Win32.Build.0 = Debug|Win32
+		{32A774F3-BE29-4E28-8D79-D9540A9801B6}.Release|Win32.ActiveCfg = Release|Win32
+		{32A774F3-BE29-4E28-8D79-D9540A9801B6}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
